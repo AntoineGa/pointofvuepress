@@ -20,3 +20,10 @@ We need a VM to host the following tools through dockerfile
 ## Create the VM host
 
 ### Packer
+
+
+## Seq
+
+### Control access
+
+Access will be controlled through IP filtering by Azure and managed by an Azure Function.
