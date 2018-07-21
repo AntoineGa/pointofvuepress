@@ -26,4 +26,4 @@ We need a VM to host the following tools through dockerfile
 
 ### Control access
 
-Access will be controlled through IP filtering by Azure and managed by an Azure Function.
+Access will be controlled through IP filtering by Azure and managed by an Azure Function. It will looks at each IP of Web Site with a specific **tag** and add it to the firewall of the VM 
